@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nati y Juan — Nos casamos!</title>
+<meta name="description" content="Nati y Juan se casan el 20 de noviembre de 2026. Te esperamos!">
+<link rel="icon" href="assets/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="section hero" id="hero">
+  <video class="bg-video" autoplay muted loop playsinline poster="assets/video/ocean-poster.jpg">
+    <source src="assets/video/ocean-waves.mp4" type="video/mp4">
+  </video>
+  <div class="bg-wash"></div>
+  <img class="deco top-branch" src="assets/images/lemon-hydrangea-wide.png" alt="">
+  <img class="deco birds-mid" src="assets/images/birds-branch.png" alt="">
+  <div class="hero-content reveal" data-reveal="letters">
+    <p class="script big">Nati y Juan</p>
+    <p class="script big">Nos casamos!</p>
+  </div>
+</section>
+
+<section class="section" id="fecha">
+  <img class="deco swallows-corner" src="assets/images/swallows.png" alt="">
+  <h2 class="label reveal" data-reveal="lines">Agendá la fecha!</h2>
+  <div class="script date reveal" data-reveal="lines">
+    <p>Viernes 20 de<br>Noviembre 2026</p>
+    <p class="time">18:00 hs</p>
+  </div>
+</section>
+
+<section class="section" id="ubicacion">
+  <h2 class="label reveal" data-reveal="lines">Ubicación</h2>
+  <p class="script reveal" data-reveal="lines">Gral. Pacheco 1545<br>(Martínez)</p>
+  <a class="btn reveal" data-reveal="fade" href="https://maps.app.goo.gl/cqfFCjjo5ReLrTRK7" target="_blank" rel="noopener">¿Cómo llegar?</a>
+  <img class="deco swallows-corner flip" src="assets/images/swallows.png" alt="">
+</section>
+
+<section class="section" id="dresscode">
+  <img class="deco lemon-branch" src="assets/images/lemon-iris-branch-a.png" alt="">
+  <h2 class="label reveal" data-reveal="lines">Dresscode</h2>
+  <p class="script reveal" data-reveal="lines">Elegante<br>(Evitar colores claros)</p>
+</section>
+
+<section class="section gift" id="regalo">
+  <p class="script reveal" data-reveal="lines">Para nosotros lo más importante es tu presencia pero si deseas hacernos un regalo te dejamos nuestros datos bancarios:</p>
+  <button class="btn reveal" data-reveal="fade" id="ver-datos-btn" type="button">Ver datos</button>
+
+  <img class="deco lemon-branch small" src="assets/images/lemon-iris-branch-b.png" alt="">
+  <p class="label big reveal" data-reveal="lines">¡Te esperamos!</p>
+  <a class="btn reveal" data-reveal="fade" href="https://forms.gle/ArurAxkJcX3quLXu8" target="_blank" rel="noopener">Confirmar asistencia</a>
+  <p class="script small reveal" data-reveal="lines">El evento es para mayores de 18 años.</p>
+</section>
+
+<section class="section closing" id="gracias">
+  <video class="bg-video" autoplay muted loop playsinline poster="assets/video/ocean-poster.jpg">
+    <source src="assets/video/ocean-waves.mp4" type="video/mp4">
+  </video>
+  <div class="bg-wash"></div>
+  <div class="closing-content reveal" data-reveal="letters">
+    <p class="script">Gracias por</p>
+    <p class="script">acompañarnos!</p>
+    <p class="script big">Nati y Juan</p>
+  </div>
+  <img class="deco hands" src="assets/images/hands-rings.png" alt="Manos entrelazadas con anillo de casamiento">
+</section>
+
+<footer class="footer">
+  <p>Nati &amp; Juan · 20.11.2026</p>
+</footer>
+
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" aria-label="Cerrar">&times;</button>
+    <h3 id="modal-title" class="label">Datos bancarios</h3>
+
+    <div class="account-card">
+      <h4>Juan</h4>
+      <dl>
+        <dt>Banco</dt><dd>Banco Galicia</dd>
+        <dt>CTA</dt><dd>4039212-1 041-3</dd>
+        <dt>CBU</dt><dd>0070041231004039212131</dd>
+        <dt>CUIL</dt><dd>20396447089</dd>
+        <dt>Alias</dt><dd>JUAN.ROSENBLAT.USD</dd>
+      </dl>
+    </div>
+
+    <div class="account-card">
+      <h4>Nati</h4>
+      <dl>
+        <dt>Banco</dt><dd>Banco Galicia</dd>
+        <dt>CTA</dt><dd>4047737-0 001-9</dd>
+        <dt>CBU</dt><dd>0070001630004047737090</dd>
+        <dt>CUIL</dt><dd>27-38574623-2</dd>
+        <dt>Alias</dt><dd>NATALIAGALEANO.99</dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
